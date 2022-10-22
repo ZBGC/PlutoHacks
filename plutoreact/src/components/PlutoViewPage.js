@@ -157,7 +157,7 @@ class PlutoViewPage extends Component{
           <p>Base Model</p>
           <br />
           <p className="">
-            For the hat and the cambera you will be able to transverse the
+            For the hat and the camera you will be able to transverse the
             streets with more ease.
           </p>
         </div>
