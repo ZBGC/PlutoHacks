@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./PlutoReach.css";
 import Footer from "./Footer";
-
+import subject from "./Subject.png";
 class PlutoReach extends Component{
 
     render(){
@@ -157,7 +157,7 @@ class PlutoReach extends Component{
           </ul>
         </div>
         <div className="column float.right shadow border ml-12 rounded-xl">
-          <img className=" rounded-xl"src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3412&q=80" />
+          <img className=" rounded-xl bg-slate-100"src={subject} />
         </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Footer from "./Footer";
 import "./PlutoView.css";
+import model from "./model.png";
 
 
 class PlutoViewPage extends Component{
@@ -18,7 +19,8 @@ class PlutoViewPage extends Component{
       className="absolute top-0 w-full h-full bg-center bg-cover"
       style={{
         backgroundImage:
-          'url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80")'
+          'url("https://i.imgur.com/HCKnpfq.jpg")',
+
       }}
     >
       <span
@@ -124,9 +126,9 @@ class PlutoViewPage extends Component{
         </p>
         <div>
         <img
-          src="https://i.imgur.com/JTmsN4v.png"
-          style={{ width: "75%", marginLeft: "auto", marginRight: "auto" }}
-          className="center mt-14 shadow border rounded-xl"
+          src={model}
+          style={{ width: "60%", marginLeft: "auto", marginRight: "auto" }}
+          className="center mt-14 shadow border rounded-xl bg-blue-300"
         />
       </div>
         <br />
