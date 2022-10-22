@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+       
+    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-blue-800 mb-0">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+          <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+            <a class="text-xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white " href="#pablo">
+              Pluto Helps
+            </a>
+            <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="lg:flex flex-grow items-center hidden" id="example-collapse-navbar">
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span class="ml-2">GitHub</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  <i class="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span class="ml-2">PludoHacks</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  <i class="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span class="ml-2">Other</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#login">
+                  <i class="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span class="ml-2">Login</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  <i class="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span class="ml-2">Signup
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- <script>
+        function toggleNavbar(collapseID){
+          document.getElementById(collapseID).classList.toggle("hidden");
+          document.getElementById(collapseID).classList.toggle("flex");
+        }
+      </script> -->
+    <!-- Head of Webpage -->
+
+    <div
+    class="relative pt-16 pb-32 flex content-center items-center justify-center"
+    style="min-height: 75vh;"
+    >
+    <div
+    class="absolute top-0 w-full h-full bg-center bg-cover"
+    style='background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");'
+    >
+    <span
+        id="blackOverlay"
+        class="w-full h-full absolute opacity-75 bg-black"
+    ></span>
+    </div>
+    <div class="container relative mx-auto">
+    <div class="items-center flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+        <div class="pr-12">
+            <h1 class="text-white font-bold text-6xl">
+            Pluto<selestion class="text-blue-500">View</selestion>
+            </h1>
+            <p class="mt-4 text-xl text-gray-300">
+                PlutoView is a vision aid to help you navigate your world
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div
+    class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+    style="height: 70px;"
+    >
+    <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+    >
+        <polygon
+        class="text-white fill-current"
+        points="2560 0 2560 100 0 100"
+        ></polygon>
+    </svg>
+    </div>
+    </div>
+
+    <p class="padding: 1.25rem"><br><br><br></p>
+
+    <!--  -->
+
+    <h1 class="text-center text-5xl font-bold text-blue-900">Who Will This <selestion class="text-blue-500">Help</selestion>?</h1>
+
+    <!-- NEED TO MAKE MOBILE FRIENDLY -->
+    
+    <div class="grid grid-cols-2 gap-4 ">
+    
+        <div class="column float.left ">
+
+            <div class="text-center">
+
+                <!--WORK ON SIZING -->
+                <div class="max-h-9 p-12">
+                    <img src="https://plus.unsplash.com/premium_photo-1661413277751-2aaefed19ae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" style = "height:200px;" class="h-7 m-auto">
+                </div>
+
+                <h1 class="text-3xl font-bold text-blue-800">Completely Blind</h1>
+
+                <p class="text-s px-8">This device will assist those who are completely blind to help detect what is infromt of them. </p>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="column float.right">
+
+            <div class="text-center">
+
+                <!--WORK ON SIZING -->
+                <div class="max-h-9 p-12">
+                    <img src="https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80" style = "height:200px;" class="h-7">
+                </div>
+
+                <h1 class="text-3xl font-bold text-blue-800">Parshally Blind</h1>
+
+                <p class="text-s px-8">This product will be able to assist those who are parshally blind to navigate their world.</p>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+    <br><br>
+
+    <!-- About Section -->
+
+    <div class="bg-blue-800 py-12">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div>
+            <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-white text-center text-5xl">About Our Product</h2>
+            <!-- <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p> -->
+          </div>
+
+          <br>
+    
+          <div>
+            <!-- Picture -->
+            <img src="https://images.unsplash.com/photo-1592367630397-65872fe016e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" style="width: 75%; margin-left: auto; margin-right: auto;" class="center">
+          </div>
+
+          <div class="text-white">
+            <p class="text-center text-white text-xl" style="margin-LEFT: 20%; margin-RIGHT: 20%;">Our PlutoView aims to help the blind and visually impared to navigate their world by</p>
+
+            <br>
+
+            <!-- <div class="text-center">
+                <ul style="list-style-type: circle;">
+                    <li class="list-inside">Beepin when you are about to walk into something</li>
+                    <li class="list-inside">...</li>
+                    <li class="list-inside">Beeping</li>
+                </ul>
+            </div> -->
+          </div>
+          
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <!-- Pricing -->
+
+    <div>
+        <h1 class="text-center text-4xl font-bold">Our Prices</h1>
+
+        <br>
+
+        <div>
+            <div class="text-center bg-blue-800 rounded-lg" style="margin-left: 10em; margin-right: 10em; padding: 2em; padding-top: 4em; padding-bottom: 4em">
+
+                <div class="column float.left text-white">
+                    <h2 class="text-2xl font-bold ">Basic Package</h2>
+                    <!-- Price -->
+                    <h3 class="text-6xl text-blue-300">$45</h3>
+                    <p>Base Model</p>
+                    <br>
+                    <p class="">For the hat and the cambera you will be able to transverse the streets with more ease.</p>
+
+                    <!-- <button id="mybutton" type="button" style="background:#FFFFFF;color:black;margin: 3ems;">Buy Now!</button> -->
+
+
+                </div>
+                <!-- <div class="column float.left">
+                    <h2 class="text-2xl font-bold ">Adult Arm Package</h2>
+                    <h3 class="text-6xl text-green-600">$85</h3>
+                    <p>Basic Adult Model</p>
+                    <br>
+                    <p class="">words go here words go here words go here words go here words go here words go here words go here words go here </p>
+                </div>
+                -->
+
+            </div>
+        </div>
+        
+        <br><br><br>
+
+        <!-- FORM -->
+
+        <div>
+            <h1 class="text-center text-4xl font-bold">Contact Us Now!</h1>
+    
+            <form class="text-center">
+                <label for="name" class="text-2l">First Name</label>
+                <input type="text" id="name" name="name">
+    
+                <br>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+    
+                <br>
+    
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message">
+            </form>
+    
+    
+            <!-- Insert forn here -->
+          </div>
+    
+          <footer class="bg-green-400">
+            
+            <p class="text-center">oh hello there</p>
+          </footer>
+ 
+</body>
+</html>
